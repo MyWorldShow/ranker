@@ -14,12 +14,16 @@
   --checked-blue: #052ae2CC;
 
   /* company border colors */
-  --exosphere: #ef7e6e;
-  --thermosphere: #ffbc85;
-  --mesosphere: #fedf9f;
-  --stratosphere: #a1c8e5;
+  --exosphere: #ed8585;
+  --thermosphere: #ffbc84;
+  --mesosphere: #ffdfa0;
+  --stratosphere: #a1c9e6;
   --troposphere: #cca1e6;
   --no-rank: #989898;
+  --darkgreen: #327456;
+  --lightgreen: #a6bfb4;
+  --darkpink: #ffbbcc;
+  --lightpink: #ffecf1;
 }
 
 p {
@@ -114,7 +118,7 @@ body {
   border: none;
   border-radius: 3px;
   padding: 4px 6px 4px 6px;
-  background-color: var(--jyp);
+  background-color: var(--darkpink);
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -240,6 +244,18 @@ body {
 .troposphere-border {
   border: 5px solid var(--troposphere);
 }
+.darkgreen-border {
+  border: 5px solid var(--darkgreen);
+}
+.lightgreen-border {
+  border: 5px solid var(--lightgreen);
+}
+.darkpink-border {
+  border: 5px solid var(--lightpink);
+}
+.lightpink-border {
+  border: 5px solid var(--lightpink);
+}
 .eliminated .table__entry-icon-border {
   border: 5px solid var(--no-rank);
 }
@@ -325,7 +341,7 @@ body {
   bottom: -5px;
   margin: auto;
   border-radius: 50%;
-  background-color: var(--jyp);
+  background-color: var(--darkgreen);
   box-sizing: border-box;
   padding: 2px;
   /* badge text options */
@@ -355,6 +371,18 @@ body {
 }
 .bg-troposphere {
   background-color: var(--troposphere);
+}
+.bg-darkgreen {
+  background-color: var(--darkgreen);
+}
+.bg-lightgreen {
+  background-color: var(--lightgreen);
+}
+.bg-darkpink {
+  background-color: var(--darkpink);
+}
+.bg-lightpink {
+  background-color: var(--lightpink);
 }
 .eliminated .ranking__entry-icon-badge {
   background-color: var(--no-rank);
