@@ -76,7 +76,7 @@ function convertCSVArrayToTraineeData(csvArrays) {
     trainee.top7 = traineeArray[2] === 't'; // sets trainee to top 7 if 't' appears in 3rd column
     trainee.id = parseInt(traineeArray[3]) - 1; // trainee id is the original ordering of the trainees in the first csv
     trainee.image =
-      trainee.name.replace(" ", "").replace("-", "") + ".jpeg";
+      trainee.name.replace(" ", "").replace("-", "") + ".jpg";
     return trainee;
   });
   filteredTrainees = trainees;
